@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,450;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,450;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(30, 5, 30);
+    color: white;
+    font-family: poppins;
+}
+
+.nav1 {
+    font-family: poppins;
+    font-size: 13px;
+    padding: 15px 0px 0px 30px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav1 li:hover {
+    border: 2px solid;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(30, 5, 30);
+    cursor: pointer;
+    transition: ease-in-out .1s;
+}
+
+.nav1 .div1 {
+    display: flex;
+    gap: 25px;
+    padding-bottom: 15px;
+}
+
+.line {
+    width: 100%;
+    border: 1px solid rgb(80, 5, 80);
+}
+
+.nav2 {
+    list-style: none;
+    display: flex;
+    font-size: large;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: sticky;
+    top: 0;
+}
+
+.nav2 .n2d1 {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.n2d1 li:hover {
+    border: 2px solid;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(30, 5, 30);
+    cursor: pointer;
+    transition: ease-in-out .1s;
+}
+
+.nav2 .n2d1 img {
+    margin: 0px;
+    padding: 0px 10px;
+    width: 110px;
+}
+
+.n2d2 li img:hover {
+    background-color: white;
+}
+
+.nav2 .n2d2 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-right: 20px;
+    cursor: pointer;
+}
+.n2d2 li:hover{
+    transition: ease-in-out .1s;
+}
+
+.n2d2 li:nth-child(3):hover {
+    border: 2px solid;
+    padding: 5px;
+    border-radius: 5px;
+    background: linear-gradient(to left, #33ccff 0%, #9933ff 100%);
+    color: white;
+    color: rgb(30, 5, 30);
+    font-weight: 600;
+}
+
+.n2d2 li:nth-child(3) {
+    border: 2px solid transparent;
+    border-radius: 5px;
+    border-image: linear-gradient(to left, #33ccff 0%, #9933ff 100%);
+    border-image-slice: 1;
+    padding: 2px;
+    width: 75px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.nav2 .n2d2 img {
+    margin-top: 10px;
+    padding: 8px;
+    background-color: rgb(45, 0, 45);
+    height: 20px;
+    width: 20px;
+    border: 1px solid rgb(45, 0, 45);
+    border-radius: 20px;
+}
+
+.m1s1 {
+    display: flex;
+    justify-content: center;
+}
+
+.m1d1 {
+    z-index: 10px;
+    font-weight: 600;
+    padding: 20px;
+    font-size: 40px;
+    width: 90vw;
+    margin-top: 75px;
+    justify-content: center;
+    display: flex;
+    border: 1px;
+    border-radius: 15px;
+    background: linear-gradient(to left, #33ccff 0%, #9933ff 100%);
+}
+
+.tablebar {
+    list-style: none;
+    gap: 45px;
+    justify-content: center;
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+}
+
+.tablebar li {
+    gap: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.tablebar li:hover {
+    background-color: rgb(45, 0, 45);
+    color: rgb(220, 220, 220);
+    cursor: pointer;
+}
+
+.tablebar li {
+    border: 1px solid gray;
+    padding: 3px 8px;
+    border-radius: 5px;
+}
+
+th {
+    padding-top: 5px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-weight: 450;
+    color: rgb(120, 90, 120);
+    background-color: rgb(45, 0, 45);
+    border-radius: 15px;
+}
+td {
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(45, 0, 45);
+    border-radius: 15px;
+}
+
+.tab {
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+    background-color: rgb(45, 0, 45);
+    border-radius: 15px;
+    align-items: center;
+}
+
+.tab th:nth-child(2) {
+    display: flex;
+    padding-left: 75px;
+    border-radius: 0px;
+}
+
+.tab td:nth-child(2) {
+    display: flex;
+    justify-content: left;
+    background-color: rgb(45, 0, 45);
+    align-items: center;
+    border-radius: 0px;
+}
+
+.qual {
+    margin-top: 40px;
+    margin-bottom: 100px;
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+}
+
+#span1 {
+    color: blue;
+    background-color: rgb(0, 0, 255);
+    border: 1px solid rgb(50, 0, 50);
+    border-radius: 5px;
+}
+
+#span2 {
+    color: orange;
+    background-color: orange;
+    border: 1px solid rgb(45, 0, 45);
+    border-radius: 5px;
+}
+
+#span3 {
+    color: greenyellow;
+    background-color: greenyellow;
+    border: 1px solid rgb(45, 0, 45);
+    border-radius: 5px;
+}
+
+#span4 {
+    color: red;
+    background-color: red;
+    border: 1px solid rgb(45, 0, 45);
+    border-radius: 5px;
+}
+
+.spon {
+    width: 90vw;
+    font-weight: 200;
+    background-color: rgb(45, 0, 45);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    margin-bottom: 50px;
+
+}
+
+.spon img {
+    background-color: rgb(45, 0, 45);
+    width: 100px;
+}
+
+.spon tbody td {
+    font-weight: 300;
+}
+
+#id img {
+    width: 200px;
+}
+
+.foot1 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    font-weight: 100;
+    width: 90vw;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+.foot1 td {
+    padding: 20px 0px 20px 0px;
+    font-weight: 600;
+    background-color: rgb(30, 5, 30);
+    border-right: 1px solid rgb(80, 5, 80);
+}
+
+.foot1 td:last-child {
+    border-right: none;
+}
+.foot1 td:hover{
+    cursor: pointer;
+    background-color: rgb(80, 5, 80);
+    border-radius: 0px;
+}
+.f2d1 li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(150, 30, 150)
+}
+.foot2 {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    text-align: center;
+    justify-items: center;
+    font-size: 12px;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.foot2 div {
+    display: flex;
+    gap: 20px;
+    padding: 0px 0px 0px 10px;
+    text-align: center;
+}
+
+.f2d2 li {
+    padding: 0px 10px 0px 0px;
+    display: flex;
+    align-items: center;
+}
