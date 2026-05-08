@@ -13,11 +13,11 @@ A visually appealing and responsive Premier League Points Table website built us
 9. Multi-section footer navigation
 
 # Technologies Used
-HTML5
-CSS3
-Google Fonts
-Flexbox Layout
-CSS Gradients & Hover Effects
+1. HTML5
+2. CSS3
+3. Google Fonts
+4. Flexbox Layout
+5. CSS Gradients & Hover Effects
 
 # Project Structure
 📁 Premier-League-Table
